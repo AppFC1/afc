@@ -2,27 +2,7 @@
 {% block subtitle %}<h2>News</h2>{% endblock %}
 
 {% block content %}
-
-    <div id="articles" class="grid is-gap-4">
-    {% for article in articles_page.object_list %}
-        <article class="cell is-col-span-2">
-            <header> <h2><a href="/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-
-            <section>
-              <a href="/{{ article.url }}"><img src="{{article.hero}}" class="hero-img" /></a>
-              {{ article.summary }}
-            </section>
-
-            <hr/>
-            <footer>
-                <p><time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></p>
-            </footer>
-        </article>
-    {% endfor %}
-    </div>
-
-    {% if articles_page.has_other_pages() %}
-        {% include 'pagination.html' %}
-    {% endif %}
-
+<script>
+  window.location.replace('https://appfc1.github.io/afc/pages/players.html');
+</script>
 {% endblock content %}

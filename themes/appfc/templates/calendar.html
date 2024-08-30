@@ -34,7 +34,7 @@
         {% for player in DATA_PLAYERS_24 %}
           <div class="event-player">
             {% if vevent.home in player.college_url %}
-            <a href="/pages/players.html#{{ player.full_name|replace(' ', '_') }}"><img src="{{ player.img }}" class="event-player-img" title="{{ player.full_name }}" /></a>
+            <a href="/afc/pages/players.html#{{ player.full_name|replace(' ', '_') }}"><img src="{{ player.img }}" class="event-player-img" title="{{ player.full_name }}" /></a>
             {% endif %}
           </div>
         {% endfor %}

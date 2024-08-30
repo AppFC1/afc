@@ -1,7 +1,7 @@
 AUTHOR = 'Adam Sommer'
 SITENAME = 'Appalachian FC'
 SITEURL = ''
-DOMAIN = ''
+DOMAIN = 'appfc1.github.io'
 # DOMAIN = 'asommer70.github.io'
 FEED_DOMAIN = SITEURL
 # STYLESHEET_URL = '/static/css/site.css'

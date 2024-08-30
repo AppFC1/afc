@@ -1,6 +1,6 @@
 AUTHOR = 'Adam Sommer'
 SITENAME = 'Appalachian FC'
-SITEURL = ''
+SITEURL = '/afc'
 DOMAIN = 'appfc1.github.io'
 # DOMAIN = 'asommer70.github.io'
 FEED_DOMAIN = SITEURL
